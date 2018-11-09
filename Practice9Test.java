@@ -133,6 +133,7 @@ public class Practice9Test {
 		int grade = 0;
 		
 		// Test 1: basic "insert and remove"
+		
 		try {
 			if (insertRemoveTest()) {
 				grade += 20;
@@ -143,6 +144,7 @@ public class Practice9Test {
 		} catch (Exception e) {
 			System.out.println("[   ] = Failed basic insert / remove test.");
 		}
+
 		
 		// Test 2: advanced "insert and retrieve" (is it a minheap?)
 		try {
@@ -158,7 +160,7 @@ public class Practice9Test {
 		
 		// Test 3: full ordering test (always rearranges to a minheap?)
 		try {
-			if (fullOrderingTest()) {
+				if (fullOrderingTest()) {
 				grade += 40;
 				System.out.println("[40%] = Passed full ordering test.");
 			} else {
